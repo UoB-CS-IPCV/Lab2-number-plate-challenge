@@ -17,6 +17,8 @@ There are two ways to use the lab sheet, you can either:
 3. Test your program on the mandrill image and the kernel below. What can you say about the output produced? Why do we need the factor 1/9?
 4. Play around with the kernel values and see what effect it has on the image. Try a set of values that will sharpen the image.
 
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/conv3x3.png" height=150> 
+
 # The Number Plate Challenge
 
 **Introduction**:
@@ -27,8 +29,6 @@ In particular, your task will be to recover number plate information from corrup
 
 ## Task 2: Recovery by Sharpening
 
-<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car1.png" height=150> 
-
 - The first number plate image has been captured by a camera that is slightly out of focus resulting in blur. 
 - Your first task is to implement sharpening using OpenCV (for instance by modifying the provided filtering code) to recover the number plate. 
 - Consider sharpening your image by adding the image to itself and subtracting a blurred version of it (i.e. perform **unsharp masking**).  Why and how does this technique work? 
@@ -36,18 +36,18 @@ In particular, your task will be to recover number plate information from corrup
 - What effect do different kernel sizes and/or multiple rounds of filtering have on the number plate readability? 
 - You won’t get a perfectly sharp image, but should aim at arriving at a sharpened image where the number is clearer than in the original.
 
-## Task 3: Recovery by Median Filtering
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car1.png" height=150> 
 
-<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car2.png" height=150> 
+## Task 3: Recovery by Median Filtering
 
 - The second number plate was captured on film material of very poor quality resulting in ‘salt and pepper’ noise. 
 - Your task is to implement a median filter to recover the number plate information. 
 - A median filter operates by replacing a pixel with the median of ‘its neighbouring pixels and the pixel itself’. 
 - What influence does the size of the pixel neighbourhood have (e.g. 8 adjacent pixels, 24 neighbouring pixels) on the number plate readability?
 
-## Task 4: OPTIONAL: Recovery by De-Convolution
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car2.png" height=150> 
 
-<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car3.png" height=150>
+## Task 4: OPTIONAL: Recovery by De-Convolution
 
 - This task is optional and advanced, it should be attempted only if you who have finished task 1 and 2 fully. 
 - The third number plate is distorted by motion blur. 
@@ -57,3 +57,4 @@ In particular, your task will be to recover number plate information from corrup
 - You need to experiment with the blur length, blur angle and signal to noise ratio to try and get a good reconstruction. 
 - Have a close look at the blurred image to help you estimate these parameters.
 
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car3.png" height=150>
