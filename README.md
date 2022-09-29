@@ -27,6 +27,8 @@ In particular, your task will be to recover number plate information from corrup
 
 ## Task 2: Recovery by Sharpening
 
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car1.png" height=150> 
+
 - The first number plate image has been captured by a camera that is slightly out of focus resulting in blur. 
 - Your first task is to implement sharpening using OpenCV (for instance by modifying the provided filtering code) to recover the number plate. 
 - Consider sharpening your image by adding the image to itself and subtracting a blurred version of it (i.e. perform **unsharp masking**).  Why and how does this technique work? 
@@ -36,12 +38,16 @@ In particular, your task will be to recover number plate information from corrup
 
 ## Task 3: Recovery by Median Filtering
 
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car2.png" height=150> 
+
 - The second number plate was captured on film material of very poor quality resulting in ‘salt and pepper’ noise. 
 - Your task is to implement a median filter to recover the number plate information. 
 - A median filter operates by replacing a pixel with the median of ‘its neighbouring pixels and the pixel itself’. 
 - What influence does the size of the pixel neighbourhood have (e.g. 8 adjacent pixels, 24 neighbouring pixels) on the number plate readability?
 
 ## Task 4: OPTIONAL: Recovery by De-Convolution
+
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car3.png" height=150>
 
 - This task is optional and advanced, it should be attempted only if you who have finished task 1 and 2 fully. 
 - The third number plate is distorted by motion blur. 
