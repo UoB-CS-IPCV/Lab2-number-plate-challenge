@@ -58,9 +58,21 @@ In particular, your task will be to recover number plate information from corrup
 - This task is optional and advanced, it should be attempted only if you who have finished task 1 and 2 fully. 
 - The third number plate is distorted by motion blur. 
 - To recover the number plate you may want to use **Wiener Deconvolution**. 
-- First, familiarise yourself with the idea of this filter (see next slide or search for it on the web). 
-- We have provided you with a Wiener deconvolution function. 
+- First, familiarise yourself with the idea of this filter (see below). 
+- We have provided you with a Wiener deconvolution function in `deconvolution.py`.
 - You need to experiment with the blur length, blur angle and signal to noise ratio to try and get a good reconstruction. 
 - Have a close look at the blurred image to help you estimate these parameters.
 
 <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car3.png" height=150>
+
+<details>
+    <summary>Hint</summary>
+Adjust this function call `recover = WienerDeconvoluition(gray_image,15,3,0.001,0)`
+</details>
+
+### Wiener De-Convolution
+
+**Idea**: Restore an image by convolution with an adjusted inverse kernel that estimates the loss of information per frequency.
+
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/Wiener%20De-Convolution.png" height=250> 
+
