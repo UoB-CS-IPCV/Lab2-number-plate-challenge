@@ -82,3 +82,5 @@ Adjust this function call `recover = WienerDeconvoluition(gray_image,15,3,0.001,
 - This task will let you explore how your phone creates this effect without overexposure.
 - A 1-second waterfall clip (at 30 fpt) has been extracted into 30 frames in `img/waterfall`.
 - Think about how to make this smooth effect using these 30 frames.
+
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/waterfall.gif" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/longexposure.jpg" height=250> 
