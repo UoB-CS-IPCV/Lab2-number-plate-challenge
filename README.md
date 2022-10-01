@@ -44,6 +44,13 @@ In particular, your task will be to recover number plate information from corrup
 
 <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/car1.png" height=150> 
 
+<details>
+    <summary>Hint</summary>
+$I_\text{Sharpen} = I_\text{Original} + \alpha \left(I_\text{Original} - \text{Smooth}(I_\text{Original})\right)$
+
+(See page 18 in slide 04: Filtering Images).
+</details>
+
 ## Task 3: Recovery by Median Filtering
 
 - The second number plate was captured on film material of very poor quality resulting in ‘salt and pepper’ noise. 
