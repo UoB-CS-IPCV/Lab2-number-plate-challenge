@@ -80,7 +80,7 @@ Adjust this function call `recover = WienerDeconvoluition(gray_image,15,3,0.001,
 
 - Long-exposure photography involves using a long-duration shutter speed. However, in many situations a long-duration shutter speed causes too many highlights on the image (overexposure).
 - This task will let you explore how your phone creates this effect without overexposure.
-- A 1-second waterfall clip (at 30 fps) has been extracted into 30 frames in `img/waterfall`.
+- A 1-second waterfall clip (at 30 fps) has been extracted to 30 frames in `img/waterfall`.
 - Think about how to make this smooth effect using these 30 frames.
 
 <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/waterfall.gif" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/longexposure.jpg" height=250> 
