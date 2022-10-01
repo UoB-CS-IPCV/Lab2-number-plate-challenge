@@ -90,4 +90,12 @@ Adjust this function call `recover = WienerDeconvoluition(gray_image,15,3,0.001,
 - A 1-second waterfall clip (at 30 fps) has been extracted to 30 frames in `img/waterfall`.
 - Think about how to make this smooth effect using these 30 frames.
 
-<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/waterfall.gif" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/longexposure.jpg" height=250> 
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/waterfall.gif" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/longexposure.jpg" height=250>
+
+## Task 6: OPTIONAL: Remove Tourists
+
+- Often, taking photos of tourist attractions without people is impossible.
+- In this task, you will process multiple images taken in slightly different times at the same landmark. People appear at different locations in the images. 
+- How can you use a simple filter to produce a single image without people from eight images, provided in `img/landmark`.
+
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img1.jpg" height=250> <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img2.jpg" height=250> <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img3.jpg" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark.jpg" height=250>  
