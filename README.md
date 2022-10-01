@@ -98,4 +98,4 @@ Adjust this function call `recover = WienerDeconvoluition(gray_image,15,3,0.001,
 - In this task, you will process multiple images taken in slightly different times at the same landmark. People appear at different locations in the images. 
 - How can you use a simple filter to produce a single image without people from eight images, provided in `img/landmark`.
 
-<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img1.jpg" height=250> <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img2.jpg" height=250> <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img3.jpg" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark.jpg" height=250>  
+<img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img1.jpg" height=250> <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark/img2.jpg" height=250> &rarr; <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/landmark.jpg" height=250>  
