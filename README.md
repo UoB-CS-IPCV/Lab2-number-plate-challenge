@@ -20,12 +20,16 @@ There are two ways to use the lab sheet, you can either:
 <img src="https://github.com/UoB-CS-IPCV/Lab2-number-plate-challenge/blob/main/img/conv3x3.png" height=150> 
 
 <details>
-    <summary>Hint</summary>
+    <summary>Hint1</summary>
 <img src="https://miro.medium.com/max/790/1*1okwhewf5KCtIPaFib4XaA.gif" height=250> 
 
-Check high-pass filtering in Lecture 04, page 8
 </details>
 
+<details>
+    <summary>Hint2</summary>
+Check high-pass filtering in Lecture 04, page 8
+    
+</details>
 
 # The Number Plate Challenge
 
