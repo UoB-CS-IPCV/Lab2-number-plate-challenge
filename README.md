@@ -22,6 +22,8 @@ There are two ways to use the lab sheet, you can either:
 <details>
     <summary>Hint</summary>
 <img src="https://miro.medium.com/max/790/1*1okwhewf5KCtIPaFib4XaA.gif" height=250> 
+
+Check high-pass filtering in Lecture 04, page 8
 </details>
 
 
